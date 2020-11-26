@@ -1,3 +1,6 @@
+:root {
+  --accent-color: #2196f3;
+}
 li /*.nav__list,
 .adress__list,
 .features__list,
@@ -22,13 +25,13 @@ a {
   color: #212121;
 }
 .logo__web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .nav__list-links:hover,
 .nav__list-links:focus,
 .adress__list-links:hover,
 .adress__list-links:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .nav__list-links {
   font-family: "Roboto", sans-serif;
@@ -67,7 +70,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
   border: none;
   outline: none;
 }
@@ -142,7 +145,7 @@ a {
 }
 .our__projects-list-button:hover,
 .our__projects-list-button:focus {
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .our__projects-list-button {
   font-family: "Roboto", sans-serif;
