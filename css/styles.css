@@ -1,0 +1,172 @@
+li /*.nav__list,
+.adress__list,
+.features__list,
+.our__working-img,
+.our__team-list-img,
+.footer__contact-list,
+.our__projects-list,
+.our__projects-list*/ {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo__studio {
+  color: #212121;
+}
+.logo__web {
+  color: #2196f3;
+}
+.nav__list-links:hover,
+.nav__list-links:focus,
+.adress__list-links:hover,
+.adress__list-links:focus {
+  color: #2196f3;
+}
+.nav__list-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.adress__list-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #757575;
+}
+.hero__name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+.button__hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  border: none;
+  outline: none;
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.our__team-heading,
+.our__working-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.185;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.features__list-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.our__team-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our__team-position {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer__contact-links-adress .footer__contact-links-mail,
+.footer__contact-links-phone {
+  font-style: normal;
+  text-decoration: none;
+}
+.footer__contact-links-adress {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/
+}
+.footer__contact-links-mail,
+.footer__contact-links-phone {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+.our__projects-list-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.our__projects-list-button:hover,
+.our__projects-list-button:focus {
+  background: #2196f3;
+}
+.our__projects-list-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  border: none;
+  outline: none;
+}
+.our__projects-list-links-heding {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.our__projects-list-links-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.185;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

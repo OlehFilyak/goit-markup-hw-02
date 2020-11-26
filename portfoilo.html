@@ -1,142 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="/">WebStudio</a>
-            <ul>
-                <li>
-                    <a href="#">Студия</a>
+<body class="body">
+    <header class="header">
+        <nav class="navigation">
+            <a href="./index.html" class="logo"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="./index.html" class="nav__list-links">Студия</a>
                 </li>
-                <li>
-                    <a href="#">Портфолио</a>
+                <li class="nav__list-item">
+                    <a href="./portfoilo.html" class="nav__list-links">Портфолио</a>
                 </li>
-                <li>
-                    <a href="#">Контакты</a>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__list-links">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <address class="adress">
+            <ul class="adress__list">
+                <li class="adress__list-item">
+                    <a href="mailto:info@devstudio.com" class="adress__list-links">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="adress__list-item">
+                    <a href="tel:+380961111111" class="adress__list-links">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
     </header>
-    <main>
-    <section>
-            <h1>Наши проекти</h1>
-    <nav>
-    <ul>
-        <li>
-                <button type="button">Все</button>
+    <main class="main">
+    <section class="our__projects-buttons">
+            <h1 class="our__projects-heading" hidden="true">Наши проекти</h1>
+    <ul class="our__projects-list">
+        <li class="our__projects-list-buttons">
+                <button type="button" class="our__projects-list-button">Все</button>
         </li>
-        <li>
-                <button type="button">Веб-сайты</button>
+        <li class="our__projects-list-buttons">
+                <button type="button" class="our__projects-list-button">Веб-сайты</button>
         </li>
-        <li>
-                <button type="button">Приложения</button>
+        <li class="our__projects-list-buttons">
+                <button type="button" class="our__projects-list-button">Приложения</button>
         </li>
-        <li>
-                <button type="button">Дизайн</button>
+        <li class="our__projects-list-buttons">
+                <button type="button" class="our__projects-list-button">Дизайн</button>
         </li>
-        <li>
-                <button type="button">Маркетинг</button>
+        <li class="our__projects-list-buttons">
+                <button type="button" class="our__projects-list-button">Маркетинг</button>
         </li>
     </ul>
-    </nav>
-    <ul>
-        <li>
+    <ul class="our__projects-list">
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-1.jpg" alt="Технокряк" width="370" height="294">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-1.jpg" alt="Технокряк" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Технокряк</h2>
+            <p class="our__projects-list-links-paragraph">Веб-сайт</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Постер New Orlean vs Golden Star</h2>
+            <p class="our__projects-list-links-paragraph">Дизайн</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-3.jpg" alt="Ресторан Seafood" width="370" height="294">
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-3.jpg" alt="Ресторан Seafood" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Ресторан Seafood</h2>
+            <p class="our__projects-list-links-paragraph">Приложение</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-4.jpg" alt="Проект Prime" width="370" height="294">
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-4.jpg" alt="Проект Prime" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Проект Prime</h2>
+            <p class="our__projects-list-links-paragraph">Маркетинг</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-5.jpg" alt="Проект Boxes" width="370" height="294">
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-5.jpg" alt="Проект Boxes" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Проект Boxes</h2>
+            <p class="our__projects-list-links-paragraph">Приложение</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-6.jpg" alt="Inspiration has no Border" width="370" height="294">
-            <h2>Inspiration has no Border</h2>
-            <p>Веб-сайт</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-6.jpg" alt="Inspiration has no Border" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Inspiration has no Border</h2>
+            <p class="our__projects-list-links-paragraph">Веб-сайт</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-7.jpg" alt="Издание Limited Ed" width="370" height="294">
-            <h2>Издание Limited Ed</h2>
-            <p>Дизайн</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-7.jpg" alt="Издание Limited Ed" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Издание Limited Ed</h2>
+            <p class="our__projects-list-links-paragraph">Дизайн</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-8.jpg" alt="роект LAB" width="370" height="294">
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-8.jpg" alt="роект LAB" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Проект LAB</h2>
+            <p class="our__projects-list-links-paragraph">Маркетинг</p>
             </a>
         </li>
-        <li>
+        <li class="our__projects-list-links">
             <a href="#">
-            <img src="images/portfolio/project-9.jpg" alt="Growing Business" width="370" height="294">
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <img class="our__projects-list-links-img" src="images/portfolio/project-9.jpg" alt="Growing Business" width="370" height="294">
+            <h2 class="our__projects-list-links-heding">Growing Business</h2>
+            <p class="our__projects-list-links-paragraph">Приложение</p>
             </a>
         </li>
     </ul>
     </section>
     </main>
-    <footer>
-        <a href="/">WebStudio</a>
-        <ul>
-            <li>
-                <a href="https://goo.gl/maps/Vtm4yuSRoXptvZes5">г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-                <a href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-        </ul>
-    </footer>
-</body>
-
-</html>
+        <footer class="footer">
+            <a href="./index.html" class="logo"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
+            <ul class="footer__contact-list">
+                <li class="footer__contact-items">
+                    <a href="https://goo.gl/maps/Vtm4yuSRoXptvZes5" class="footer__contact-links-adress">г. Киев, пр-т Леси
+                        Украинки, 26</a>
+                </li>
+                <li class="footer__contact-items">
+                    <a href="mailto:info@example.com" class="footer__contact-links-mail">info@example.com</a>
+                </li>
+                <li class="footer__contact-items">
+                    <a href="tel:+380991111111" class="footer__contact-links-phone">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </footer>
+        </body>
+        </html>
