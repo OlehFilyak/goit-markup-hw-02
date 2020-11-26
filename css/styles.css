@@ -1,6 +1,8 @@
+/*================== ROOTS ===================*/
 :root {
   --accent-color: #2196f3;
 }
+/*================== GLOBAL RESET ===================*/
 li /*.nav__list,
 .adress__list,
 .features__list,
@@ -14,6 +16,7 @@ li /*.nav__list,
 a {
   text-decoration: none;
 }
+/*================== HEADER ===================*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,6 +53,8 @@ a {
   font-style: normal;
   color: #757575;
 }
+/*================== END HEADER ===================*/
+/*================== HERO ===================*/
 .hero__name {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -74,6 +79,8 @@ a {
   border: none;
   outline: none;
 }
+/*================== END HERO ===================*/
+/*================== FEATURES ===================*/
 .hidden {
   position: absolute;
   width: 1px;
@@ -102,6 +109,10 @@ a {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+/*================== END FEATURES ===================*/
+/*================== WORKING ===================*/
+/*================== END WORKING ===================*/
+/*================== TEAM ===================*/
 .our__team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -119,6 +130,8 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*================== END TEAM ===================*/
+/*================== FOOTER ===================*/
 .footer__contact-links-adress .footer__contact-links-mail,
 .footer__contact-links-phone {
   font-style: normal;
@@ -139,6 +152,8 @@ a {
   letter-spacing: 0.03em;
   /*color: rgba(255, 255, 255, 0.6);*/
 }
+/*================== END FOOTER ===================*/
+/*================== PORTFOLIO PROJECTS ===================*/
 .our__projects-list-button {
   background: #f5f4fa;
   border-radius: 4px;
@@ -173,3 +188,4 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*================== END PORTFOLIO PROJECTS ===================*/
