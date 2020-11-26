@@ -1,3 +1,2 @@
-# goit-markup-hw-01
-https://olehfilyak.github.io/goit-markup-hw-01/
-The first homework. Web studio page layout.
+# goit-markup-hw-02
+The second homework. Web studio page layout.
