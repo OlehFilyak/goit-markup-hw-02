@@ -81,7 +81,8 @@ a {
 }
 /*================== END HERO ===================*/
 /*================== FEATURES ===================*/
-.hidden {
+.features__heading,
+.our__projects-heading {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -93,6 +94,16 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.features__list-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
 .our__team-heading,
 .our__working-heading {
   font-family: "Roboto", sans-serif;
